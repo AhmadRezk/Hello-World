@@ -1,0 +1,21 @@
+comp = 'scissors'
+user = 'scissors' # this line is changed during the video
+
+if comp == 'rock' and user == 'rock':
+    print 'Tie'
+elif comp == 'rock' and user == 'paper':
+    print 'I win!'
+elif comp == 'rock' and user == 'scissors': 
+    print 'I win!'
+elif comp == 'paper' and user == 'paper':
+    print 'Tie'
+elif comp == 'paper' and user == 'rock':
+    print 'You win.'
+elif comp == 'paper' and user == 'scissors':
+    print 'You win.'
+elif comp == 'scissors' and user == 'scissors':
+    print 'Tie'
+elif comp == 'scissors' and user == 'paper':
+    print 'I win!'
+else:
+    print 'You win.'
